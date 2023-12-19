@@ -13,7 +13,7 @@ export default function Home() {
     /> */}
 
     <main className='w-screen h-screen grid place-items-center'>
-      <div>
+      <div className='text-center'>
         <h1>Tsuriai Ryu Ju Jitsu</h1>
         <h3>Slagelse Selvforsvarsklub</h3>
       </div>
