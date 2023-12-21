@@ -1,14 +1,18 @@
 import './ui/globals.css';
-import { Inter } from 'next/font/google'
+import Navbar from './ui/navbar/navbar';
 
+export const metadata = {
+  title: "Tsuriai Ryu Ju Jitsu",
+  description: "Tsuriai Ryu Ju Jitsu by Nordic Code Group",
+};
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function DashboardLayout({ children }) {
-
+export default function RootLayout({ children }) {
   return ( 
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html> 
     );
 }
