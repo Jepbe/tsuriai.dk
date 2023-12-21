@@ -6,7 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mainbg': "url('/public/main_bg.jpg')",
+      },
+      screens: {
+        'mdL': '850px',
+      }
+    },
   },
   plugins: [],
 }

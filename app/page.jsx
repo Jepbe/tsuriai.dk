@@ -1,24 +1,28 @@
 import Image from 'next/image'
-import Navbar from './ui/navbar'
+import Navbar from './ui/navbar/navbar'
+import Arrow from './ui/homePage/arrow'
+import Cards from './ui/homePage/cards'
 
 export default function Home() {
   return ( 
 <>
-    {/* <Navbar 
-      text1="navbar1"
-      text2="navbar2"
-      text3="navbar3"  
-      text4="navbar4"  
-      text5="navbar5"  
-    /> */}
+<section className='bgImage text-white grid place-items-center'>
+    <Navbar />
+    <Arrow />
 
-    <main className='w-screen h-screen grid place-items-center'>
-      <div className='text-center'>
-        <h1>Tsuriai Ryu Ju Jitsu</h1>
-        <h3>Slagelse Selvforsvarsklub</h3>
+      <div className='text-center z-10 mb-28'>
+        <h1 className='text-4xl font-semibold drop-shadow'>Tsuriai Ryu Ju Jitsu</h1>
+        <h3 className='text-2xl font-semibold drop-shadow'>Slagelse Selvforsvarsklub</h3>
+        {/* <span>釣流柔術</span><br />
+        <span>スラゲルセ防衛</span> */}
       </div>
+        
+      
+  </section>
 
-    </main>
+  <section className='grid place-items-center'>
+      <Cards />
+  </section>  
 </>
   )
 }
