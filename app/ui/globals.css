@@ -19,3 +19,12 @@ section {
   background-repeat: no-repeat;
 }
 
+.bgImage2 {
+  background-image: url(../../public/bg2.jpg);
+  /* background-image: url(../../public/backgroundpic3.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+

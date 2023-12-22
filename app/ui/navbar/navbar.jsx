@@ -14,7 +14,7 @@ export default async function Navbar() {
                     </svg>
                 </button>
                 <ul className="md:flex flex-col text-[16px] md:flex-row gap-9 items-center hidden">
-                    {session ?<li className="drop-shadow"> <Link href="/CreateUser">CreateUser</Link></li> : <li className="hidden"></li>}
+                    {session ?<li className="drop-shadow"> <Link href="/member">member</Link></li> : <li className="hidden"></li>}
                     <li className="drop-shaddow">Hold</li>
                     <li className="drop-shaddow"><Link href="./hvemervi">Hvem er vi?</Link></li>
                     <li className="drop-shaddow">Kontakt</li>

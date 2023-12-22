@@ -19,7 +19,13 @@ export default function Home() {
 
   <section className='grid place-items-center'>
       <Cards />
-  </section>  
+  </section>
+
+  <section className='bgImage2'>
+        <div>
+          <h1>Kontakt</h1>
+        </div>
+  </section>
 
 </>)
 }
