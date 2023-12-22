@@ -40,8 +40,7 @@ export const options = {
             if(user) token.role = user.role
             return token;
         },
-        secret: process.env.NEXTAUTH_SECRET,
-
+    secret: prosess.env.NEXTAUTH_SECRET,
     async session({session, token}) {
         if(session?.user) session.user.role = token.role
         return session;
