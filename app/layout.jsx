@@ -1,5 +1,5 @@
 import './ui/globals.css';
-import Navbar from './ui/navbar/navbar';
+import Navbar from './ui/navbar/navbar.jsx';
 
 export const metadata = {
   title: "Tsuriai Ryu Ju Jitsu",
