@@ -1,10 +1,10 @@
 import Arrow from './ui/homePage/arrow'
 import Cards from './ui/homePage/cards'
-
+import Navbar from './ui/navbar/navbar'
 
 export default function Home() {
   return (<>
-
+<Navbar />
   <section className='bgImage text-white grid place-items-center'>
     <Arrow />
 
@@ -17,12 +17,15 @@ export default function Home() {
   </section>
 
 
-  <section className='grid place-items-center'>
+  <section className='grid place-items-center' name='section2' id='section2'>
       <Cards />
   </section>
 
-  <section className='bgImage2'>
+  <section className='bgImage2 grid place-items-center grid-cols-2'>
         <div>
+          <h1>Kontakt</h1>
+        </div>
+        <div className='bg-white h-[60vh] px-40'>
           <h1>Kontakt</h1>
         </div>
   </section>
