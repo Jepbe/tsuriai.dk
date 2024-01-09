@@ -1,11 +1,20 @@
 import { getServerSession } from 'next-auth';
 import { options } from "../api/auth/[...nextauth]/options";
-// import { Redirect } from 'next';
+import { redirect } from "next/navigation";
+import TechniqueBank from '../ui/dashboard/techniqueBank';
 
 
 export default async function Page() {
     const session = await getServerSession(options);
+    if(!session) {
+        redirect('/api/auth/signin?callbackUrl=/dashboard')
+    }   
+
     return(
-        <p>Dashboard Page</p>
+        <div className='grid grid-cols-1 h-[90vh] sm:h-[80vh]'>
+            <div className='bg-slate-100 rounded-none sm:rounded-lg  overflow-y-scroll'><TechniqueBank/></div>
+            {/* <div className='bg-blue-300  overflow-y-scroll'><TechniqueBank/></div> */}
+
+        </div>
     );
 }
