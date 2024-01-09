@@ -1,28 +1,20 @@
 'use client'
-
-import { useState } from 'react';
 import Arrow from './ui/homePage/arrow';
 import Cards from './ui/homePage/cards';
-// import BurgerButton from './ui/navbar/burgerButton';
 import Navbar from './ui/navbar/navbar';
-import ClientComponent from './ui/navbar/test';
 import Link from 'next/link';
 
 
-
 export default function Home() {
-    const [ open, setOpen ] = useState(false);
   return (<>
-      <button onClick={ () => setOpen(!open) } className="z-20 cursor-pointer md:hidden fixed right-7 top-6  text-white ">
+      <button className="z-20 cursor-pointer md:hidden fixed right-7 top-6  text-white ">
             <svg className="w-7 h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
       </button>
 
-      <ClientComponent>
-        <Navbar />
-      </ClientComponent>
-   
+
+        <Navbar/>
   {/* <Navbar /> */}
 
   <section className='bgImage text-white grid place-items-center'>
@@ -43,7 +35,7 @@ export default function Home() {
 
   <section className='bgImage2 overflow-hidden mt-10 md:mt-0'>
         <div className='grid place-items-center h-screen grid-cols-1 md:grid-cols-2'>
-          <div className='py-7 px-4 bg-[#DFDFDF] rounded-lg opacity-90 min-h-[300px]'>
+          <div className='py-7 px-4 bg-[#DFDFDF] rounded-lg opacity-90 min-h-[300px]' id='kontakt'>
             <div className='flex justify-center flex-col'>
               <h1 className='text-xl font-bold text-center'>Kontakt</h1> <br/>
               <p>Du kan altid skrive til os på vores  
