@@ -1,21 +1,18 @@
-'use client'
 import Arrow from './ui/homePage/arrow';
 import Cards from './ui/homePage/cards';
-import Navbar from './ui/navbar/navbar';
+import NavbarClient from './ui/navbar/navbar-client';
+import NavbarServer from './ui/navbar/navbar-server';
 import Link from 'next/link';
 
 
 export default function Home() {
   return (<>
-      <button className="z-20 cursor-pointer md:hidden fixed right-7 top-6  text-white ">
-            <svg className="w-7 h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-      </button>
 
+  {/* Navbar */}
+  <NavbarClient>
+    <NavbarServer />
+  </NavbarClient>
 
-        <Navbar/>
-  {/* <Navbar /> */}
 
   <section className='bgImage text-white grid place-items-center'>
     <Arrow />
