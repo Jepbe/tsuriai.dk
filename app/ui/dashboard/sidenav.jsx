@@ -40,7 +40,7 @@ export default function SideNav() {
               <Image src={tsuriaiLogo} alt='Tsuriai Logo' width={75} height={75}></Image>
             </div>
                                                                 {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button3') } href="http://localhost:3000/dashboard">
+            <Link onClick={ () => handleButtonClick('button3') } href="https://tsuriai-dk.vercel.app//dashboard">
               <div className={`${"px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1"} 
                 ${activeButton === 'button3' ? 'bg-[#f3f3f3]' : ''}`}>
 
@@ -48,7 +48,7 @@ export default function SideNav() {
               </div>
             </Link>
                                                                 {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button1') } href="http://localhost:3000/dashboard/yellow ">
+            <Link onClick={ () => handleButtonClick('button1') } href="https://tsuriai-dk.vercel.app//dashboard/yellow ">
               <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
                 ${activeButton === 'button1' ? 'bg-[#f3f3f3]' : ''}`}>
                 
@@ -56,7 +56,7 @@ export default function SideNav() {
               </div>
             </Link>
                                                                 {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button2') } href="http://localhost:3000/dashboard/orange">
+            <Link onClick={ () => handleButtonClick('button2') } href="https://tsuriai-dk.vercel.app//dashboard/orange">
               <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
                 ${activeButton === 'button2' ? 'bg-[#f3f3f3]' : ''}`}>
 
@@ -72,8 +72,8 @@ export default function SideNav() {
             </Link>
 
           {/* Change before commit */}
-          <Link href="http://localhost:3000/">
-            <div className='px-2 py-[10px] w-[255px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded fixed bottom-2 z-50'>
+          <Link href="https://tsuriai-dk.vercel.app/">
+            <div className='px-2 py-[10px] w-[255px] hover:bg-[#282323] hover:cursor-pointer rounded fixed bottom-2 z-50'>
               <span className='flex flex-row gap-2 items-center'>
                 <i>
                   <svg xmlns="http://.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
