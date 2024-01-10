@@ -29,7 +29,7 @@ section {
 }
 
 .aboutImage {
-  background-image: url(./public/about-bg.jpg);
+  background-image: url(../../public/about-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
