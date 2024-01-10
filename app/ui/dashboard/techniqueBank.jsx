@@ -7,12 +7,12 @@ export default function TechniqueBank() {
             <h1 className="ml-5 mt-5">Hofte Kast</h1>
             <ul className="m-5">
                 {/* Change links before commit */}
-                <Link href="http://localhost:3000/dashboard/techniqueBank/o_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">O GOSHI</li></Link>
-                <Link href="http://localhost:3000/dashboard/techniqueBank/tsuri_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">TSURI GOSHI</li></Link>
-                <Link href="http://localhost:3000/dashboard/techniqueBank/uki_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">UKI GOSHI</li></Link>
-                <Link href="http://localhost:3000/dashboard/techniqueBank/hari_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">HARI GOSHI</li></Link>
-                <Link href="http://localhost:3000/dashboard/techniqueBank/kubi_nage"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">KUBI NAGE</li></Link>
-                <Link href="http://localhost:3000/dashboard/techniqueBank/hane_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">HANE GOSHI</li></Link>
+                <Link href="https://tsuriai-dk.vercel.app/dashboard/techniqueBank/o_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">O GOSHI</li></Link>
+                <Link href="https://tsuriai-dk.vercel.app/dashboard/techniqueBank/tsuri_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">TSURI GOSHI</li></Link>
+                <Link href="https://tsuriai-dk.vercel.app/dashboard/techniqueBank/uki_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">UKI GOSHI</li></Link>
+                <Link href="https://tsuriai-dk.vercel.app/dashboard/techniqueBank/hari_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">HARI GOSHI</li></Link>
+                <Link href="https://tsuriai-dk.vercel.app/dashboard/techniqueBank/kubi_nage"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">KUBI NAGE</li></Link>
+                <Link href="https://tsuriai-dk.vercel.app/dashboard/techniqueBank/hane_goshi"><li className="bg-white rounded p-4 drop-shadow my-2 cursor-pointer">HANE GOSHI</li></Link>
             </ul>
             <h1 className="ml-5 mt-5">Skulder Kast</h1>
             <ul className="m-5">
