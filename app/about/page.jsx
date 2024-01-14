@@ -10,10 +10,10 @@ import PersonAge from "../ui/about/PersonAge";
 
 export default function Page () {
     const personBirthdate1 = '1978-06-03';
-    const personBirthdate2 = '2006-01-11'
-    const personBirthdate3 = '2006-05-30'
-    const personBirthdate4 = '1972-06-15'
-    const personBirthdate5 = '1992-08-26'
+    const personBirthdate2 = '2006-01-11';
+    const personBirthdate3 = '2006-05-30';
+    const personBirthdate4 = '1972-06-15';
+    const personBirthdate5 = '1992-08-26';
 
     return (
     <>

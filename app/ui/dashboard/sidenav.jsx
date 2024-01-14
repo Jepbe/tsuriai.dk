@@ -11,6 +11,9 @@ export default function SideNav() {
   const [activeButton, setActiveButton] = useState('');
   const [navbar, setNavbar] = useState( false );
 
+                    // set til productopn URL
+  const baseLink = "https://tsuriai-dk.vercel.app/";
+  // const baseLink = "http://localhost:3000";
  
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
@@ -39,41 +42,49 @@ export default function SideNav() {
             <div className='w-full mb-10 py-2'>
               <Image src={tsuriaiLogo} alt='Tsuriai Logo' width={75} height={75}></Image>
             </div>
-                                                                {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button3') } href="https://tsuriai-dk.vercel.app//dashboard">
+
+            <Link onClick={ () => {handleButtonClick('button3'); setNavbar(!navbar)}} href={`${baseLink}/dashboard`}>
               <div className={`${"px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1"} 
                 ${activeButton === 'button3' ? 'bg-[#f3f3f3]' : ''}`}>
 
                 <span className='flex flex-row gap-2 items-center'><i><HomeIcon className='h-5 w-5' /></i> Dashboard</span>
               </div>
             </Link>
-                                                                {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button1') } href="https://tsuriai-dk.vercel.app//dashboard/yellow ">
+                                                                
+            <Link onClick={ () => {handleButtonClick('button5'); setNavbar(!navbar)} } href={`${baseLink}/dashboard/yellowsripe`}>
+              <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
+                ${activeButton === 'button5' ? 'bg-[#f3f3f3]' : ''}`}>
+                
+                <span className='flex flex-row gap-2 items-center'><i>🟡</i>Børne Gult pensum</span>
+              </div>
+            </Link>
+                                                                
+            <Link onClick={ () => {handleButtonClick('button1'); setNavbar(!navbar)}} href={`${baseLink}/dashboard/yellow`}>
               <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
                 ${activeButton === 'button1' ? 'bg-[#f3f3f3]' : ''}`}>
                 
                 <span className='flex flex-row gap-2 items-center'><i>🟨</i>Gult pensum</span>
               </div>
             </Link>
-                                                                {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button2') } href="https://tsuriai-dk.vercel.app//dashboard/orange">
+                                                                
+            <Link onClick={ () => {handleButtonClick('button2'); setNavbar(!navbar)} } href={`${baseLink}/dashboard/orange`}>
               <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
                 ${activeButton === 'button2' ? 'bg-[#f3f3f3]' : ''}`}>
 
                 <span className='flex flex-row gap-2 items-center'><i>🟧</i>Orange Pensum</span>
               </div>
             </Link>
-                                                                {/* SKIFT FØR COMMIT  */}
-            <Link onClick={ () => handleButtonClick('button4')} href="https://tsuriai-dk.vercel.app//dashboard/green">
+                                                                
+            <Link onClick={ () => {handleButtonClick('button4'); setNavbar(!navbar)}} href={`${baseLink}/dashboard/green`}>
               <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
                 ${activeButton === "button4" ? 'bg-[#f3f3f3]' : ''}`}>
                 <span className='flex flex-row gap-2 items-center'><i>🟩</i>Grønt Pensum</span>
               </div>
             </Link>
 
-          {/* Change before commit */}
-          <Link href="https://tsuriai-dk.vercel.app/">
-            <div className='px-2 py-[10px] w-[255px] hover:bg-[#282323] hover:cursor-pointer rounded fixed bottom-2 z-50'>
+          
+          <Link href={baseLink}>
+            <div className='px-2 py-[10px] w-[255px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded fixed bottom-2 z-50'>
               <span className='flex flex-row gap-2 items-center'>
                 <i>
                   <svg xmlns="http://.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

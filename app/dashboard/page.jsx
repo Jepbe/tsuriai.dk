@@ -12,7 +12,7 @@ export default async function Page() {
 
     return(
         <div className='grid grid-cols-1 h-[90vh] sm:h-[80vh]'>
-            <div className='bg-slate-100 rounded-none sm:rounded-lg  overflow-y-scroll'><TechniqueBank/></div>
+            <div className='bg-[#F4F4F4] rounded-none sm:rounded-lg  overflow-y-scroll'><TechniqueBank/></div>
             {/* <div className='bg-blue-300  overflow-y-scroll'><TechniqueBank/></div> */}
 
         </div>
