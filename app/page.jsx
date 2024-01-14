@@ -1,5 +1,6 @@
 import Arrow from './ui/homePage/arrow';
 import Cards from './ui/homePage/cards';
+import CardsNew from './ui/homePage/cardsNew';
 import NavbarClient from './ui/navbar/navbar-client';
 import NavbarServer from './ui/navbar/navbar-server';
 import Link from 'next/link';
@@ -26,7 +27,8 @@ export default function Home() {
 
 
   <section className='grid place-items-center' name='section2' id='section2'>
-      <Cards />
+      {/* <Cards /> */}
+      <CardsNew />
   </section>
 
   <section className='bgImage2 overflow-hidden mt-10 md:mt-0'>
