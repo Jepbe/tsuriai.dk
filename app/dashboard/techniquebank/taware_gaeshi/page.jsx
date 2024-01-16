@@ -1,7 +1,7 @@
 export default function Page() {
     return(
         <div>
-            uki_goshi
+            taware gaeshi
         </div>
     );
 }

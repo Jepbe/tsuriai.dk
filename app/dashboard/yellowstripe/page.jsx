@@ -53,27 +53,27 @@ export default async function Page() {
                     <h3 className="underline">Teknikker:</h3>
                     <ul>
                         <li>1. Skridtspark, dobbeltslag, kast <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
-                        <li><iframe width="100%" height="210"  src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                        <li><iframe width="100%" height="210"  src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe></li>
                         <br />
                         <li>2. Slag lige på, lige armlås</li>
-                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                         <br />
                         <li>3. Slag lige på, kast, håndledslås <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
-                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                         <br />
                         <li>4. Slag lige på, kast, siddende lige armlås <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
                         <br />
                         <li>5. Slag lige på, træd i hase</li>
-                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                         <br />
                         <li>6. Slag ovenfra, kast <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
-                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=41" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=41" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                         <br />
                         <li>7. Forsvar mod enkelt trøjegreb, kast <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
-                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                         <br />
                         <li>8. Forsvar mod omklamring, forfra, åben, nedføring </li>
-                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="210" src="https://www.youtube.com/embed/HgLWz94CKBk?si=HhDH50-E0vzWTWc2&amp;start=56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                     </ul>
                 </div>
                 <div className="mt-4">
