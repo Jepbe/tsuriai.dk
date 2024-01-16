@@ -51,11 +51,27 @@ export default function SideNav() {
               </div>
             </Link>
                                                                 
-            <Link onClick={ () => {handleButtonClick('button5'); setNavbar(!navbar)} } href={`${baseLink}/dashboard/yellowsripe`}>
+            <Link onClick={ () => {handleButtonClick('button5'); setNavbar(!navbar)} } href={`${baseLink}/dashboard/yellowstripe`}>
               <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
                 ${activeButton === 'button5' ? 'bg-[#f3f3f3]' : ''}`}>
                 
                 <span className='flex flex-row gap-2 items-center'><i>🟡</i>Børne Gult pensum</span>
+              </div>
+            </Link>
+
+            <Link onClick={ () => {handleButtonClick('button6'); setNavbar(!navbar)} } href={`${baseLink}/dashboard/orangestripe`}>
+              <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
+                ${activeButton === 'button6' ? 'bg-[#f3f3f3]' : ''}`}>
+                
+                <span className='flex flex-row gap-2 items-center'><i>🟠</i>Børne Orange pensum</span>
+              </div>
+            </Link>
+
+            <Link onClick={ () => {handleButtonClick('button7'); setNavbar(!navbar)} } href={`${baseLink}/dashboard/greenstripe`}>
+              <div className={`${'px-2 py-[10px] hover:bg-[#f3f3f3] hover:cursor-pointer rounded mt-1'} 
+                ${activeButton === 'button7' ? 'bg-[#f3f3f3]' : ''}`}>
+                
+                <span className='flex flex-row gap-2 items-center'><i>🟢</i>Børne Grøn pensum</span>
               </div>
             </Link>
                                                                 

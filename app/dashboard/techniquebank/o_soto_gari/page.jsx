@@ -1,7 +1,7 @@
 export default function Page() {
     return(
         <div>
-            uki_goshi
+            o_soto_gari
         </div>
     );
 }
