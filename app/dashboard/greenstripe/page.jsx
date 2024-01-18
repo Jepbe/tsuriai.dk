@@ -109,8 +109,8 @@ export default async function Page() {
                 <div className="mt-4">
                     <h3 className="underline">Fysisk udfordring:</h3>
                     <ul>
-                        <li>Kast op tælling 10 stk. <Link className="text-blue-600 italic hover:underline" href={uki_goshi}>(UKI GOSHI)</Link></li>
-                        <li>Kast op tælling 10 stk. <Link className="text-blue-600 italic hover:underline" href={o_soto_gari}>(O SOTO GARI)</Link></li>
+                        <li>Kast på tælling 10 stk. <Link className="text-blue-600 italic hover:underline" href={uki_goshi}>(UKI GOSHI)</Link></li>
+                        <li>Kast på tælling 10 stk. <Link className="text-blue-600 italic hover:underline" href={o_soto_gari}>(O SOTO GARI)</Link></li>
                         <li>Randori</li>
                     </ul>
                 </div>

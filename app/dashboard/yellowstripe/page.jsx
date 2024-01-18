@@ -79,7 +79,7 @@ export default async function Page() {
                 <div className="mt-4">
                     <h3 className="underline">Fysisk udfordring:</h3>
                     <ul>
-                        <li>Kast op tælling 10 stk. <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
+                        <li>Kast på tælling 10 stk. <Link className="text-blue-600 italic hover:underline" href={Ogoshi}>(O GOSHI)</Link></li>
                         <li>5 min klapjagt i ring</li>
                     </ul>
                 </div>
